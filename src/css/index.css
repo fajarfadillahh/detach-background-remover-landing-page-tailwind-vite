@@ -1,4 +1,42 @@
+/* ===== FONT GOOGLE ===== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 /* ===== Add the Tailwind directives to your CSS ===== */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ===== REUSABLE CSS CLASS ===== */
+@layer components {
+  /* section class */
+  .section {
+    @apply pt-32 pb-16;
+  }
+  .section-title {
+    @apply text-[24px] text-white font-bold mb-4;
+  }
+  .section-text {
+    @apply text-[15px] text-grey leading-text;
+  }
+  .section-gradient {
+    @apply bg-gradient-to-r from-red to-purple;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* border gradient */
+    padding: 0 0.5rem;
+    border: 1.2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, #ff4040, #ac00fd);
+  }
+
+  /* button class */
+  .button {
+    @apply h-14 flex justify-center items-center gap-2 py-4 px-8 bg-gradient-to-r from-red to-purple rounded-lg text-[15px] text-white font-semibold;
+  }
+
+  /* container class */
+  .container {
+    @apply max-w-[1120px] w-[calc(100%-3rem)] mx-auto;
+  }
+}
