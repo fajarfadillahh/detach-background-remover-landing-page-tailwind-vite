@@ -71,3 +71,11 @@
 .works__content-text {
   @apply section-text;
 }
+
+/* ===== FEATURES SECTION ===== */
+.features__content {
+  @apply grid gap-4;
+}
+.features__content-title {
+  @apply text-[18px] text-white font-semibold;
+}
