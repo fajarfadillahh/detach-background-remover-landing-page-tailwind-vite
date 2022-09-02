@@ -79,3 +79,37 @@
 .features__content-title {
   @apply text-[18px] text-white font-semibold;
 }
+
+/* ===== TESTIMONIAL SECTION ===== */
+.testimonial__content {
+  @apply grid gap-8 p-8 bg-[#171820] rounded-lg;
+}
+.testimonial__content-profile {
+  @apply flex items-center gap-6;
+}
+.testimonial__content-img {
+  @apply w-16;
+}
+.testimonial__content-title {
+  @apply text-[18px] text-white font-semibold mb-1;
+}
+.testimonial__content-profession,
+.testimonial__content-text {
+  @apply section-text;
+}
+.testimonial__content-rating {
+  @apply flex items-center gap-2;
+}
+.testimonial__content-icon {
+  @apply inline-flex text-[1.2rem] text-[#ffd231];
+}
+/* swiper-pagination */
+.testimonial__container .swiper-pagination {
+  position: initial;
+}
+.testimonial__container .swiper-pagination-bullet {
+  @apply w-2 h-2 bg-white bg-opacity-70 transition-all duration-400;
+}
+.testimonial__container .swiper-pagination-bullet-active {
+  @apply w-8 bg-gradient-to-r from-red to-purple rounded-full;
+}
