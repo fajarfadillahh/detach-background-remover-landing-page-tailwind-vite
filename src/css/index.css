@@ -57,3 +57,17 @@
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
 }
+
+/* ===== WORKS SECTION ===== */
+.works__content {
+  @apply grid grid-cols-[max-content,1fr] items-start gap-6 p-8 bg-[#171820] rounded-lg;
+}
+.works__content-icon {
+  @apply w-12;
+}
+.works__content-title {
+  @apply text-[18px] text-white font-semibold mb-2;
+}
+.works__content-text {
+  @apply section-text;
+}
