@@ -151,3 +151,24 @@
     @apply w-[400px];
   }
 }
+
+/* width 640px */
+@screen sm {
+  .section-title {
+    @apply text-[32px];
+  }
+
+  .home__data,
+  .works__data,
+  .features__data,
+  .about__data,
+  .testimonial__data,
+  .callback__data {
+    @apply w-[480px];
+  }
+
+  .home__img,
+  .about__img {
+    @apply w-[480px];
+  }
+}
