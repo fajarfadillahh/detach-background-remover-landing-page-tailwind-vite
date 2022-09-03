@@ -113,3 +113,14 @@
 .testimonial__container .swiper-pagination-bullet-active {
   @apply w-8 bg-gradient-to-r from-red to-purple rounded-full;
 }
+
+/* ===== FOOTER SECTION ===== */
+.footer__content-title {
+  @apply text-[18px] text-white font-semibold mb-6;
+}
+.footer__content-list {
+  @apply flex flex-col gap-3;
+}
+.footer__content-link {
+  @apply text-[15px] text-grey hover:text-white hover:underline;
+}
