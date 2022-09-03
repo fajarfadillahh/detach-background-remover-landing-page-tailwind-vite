@@ -280,3 +280,11 @@
 ::selection {
   @apply bg-red bg-opacity-70 text-white;
 }
+
+/* ===== ::-WEBKIT-SCROLLBAR ===== */
+::-webkit-scrollbar {
+  @apply w-2 bg-white bg-opacity-10;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-white bg-opacity-30 rounded-full hover:bg-opacity-50;
+}
