@@ -133,3 +133,21 @@
 .scrollup.scrollup-action {
   @apply bottom-12;
 }
+
+/* ===== MEDIA QUERIES ===== */
+/* width 480px */
+@screen xs {
+  .home__data,
+  .works__data,
+  .features__data,
+  .about__data,
+  .testimonial__data,
+  .callback__data {
+    @apply w-[400px];
+  }
+
+  .home__img,
+  .about__img {
+    @apply w-[400px];
+  }
+}
