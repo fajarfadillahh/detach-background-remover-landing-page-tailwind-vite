@@ -248,3 +248,30 @@
     @apply inline-flex;
   }
 }
+
+/* width 1120px */
+@screen xl {
+  .home__title {
+    @apply text-[56px];
+  }
+  .home__text {
+    @apply w-[480px];
+  }
+
+  .features__group {
+    @apply grid-cols-4;
+  }
+
+  .works__content-title,
+  .features__content-title,
+  .testimonial__content-title {
+    @apply text-[20px];
+  }
+
+  .footer__group {
+    @apply grid-cols-[1fr_repeat(3,0.8fr)];
+  }
+  .footer__content {
+    @apply justify-self-center;
+  }
+}
